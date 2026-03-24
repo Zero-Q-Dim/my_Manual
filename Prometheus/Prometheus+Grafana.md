@@ -254,7 +254,7 @@ systemctl restart prometheus
 
 http://20.0.0.214:9093
 
-![image-20260324145541099](.\Pictures\image-20260324145541099.png)
+![image-20260324145541099](./Pictures/image-20260324145541099.png)
 
 ### 2.3 安装node_exporter
 
@@ -313,7 +313,7 @@ systemctl status node_exporter
 
 http://20.0.0.214:9100/metrics
 
-![image-20260324145618282](.\Pictures\image-20260324145618282.png)
+![image-20260324145618282](./Pictures/image-20260324145618282.png)
 
 ### 2.4 配置exporter到prometheus
 
@@ -438,13 +438,13 @@ http://20.0.0.214:3000
 
 默认用户名/密码：admin/admin
 
-![image-20260324142953228](.\Pictures\image-20260324142953228.png)
+![image-20260324142953228](./Pictures/image-20260324142953228.png)
 
 ### 2.6 grafana对接prometheus
 
-![image-20260324143140643](.\Pictures\image-20260324143140643.png)
+![image-20260324143140643](./Pictures/image-20260324143140643.png)
 
-![image-20260324143222025](.\Pictures\image-20260324143222025.png)
+![image-20260324143222025](./Pictures/image-20260324143222025.png)
 
 从Grafana官网导入符合要求的仪表盘
 
@@ -452,13 +452,13 @@ https://grafana.com/grafana/dashboards
 
 在grafana右上角处点击Import dashboard，
 
-![image-20260324144123255](.\Pictures\image-20260324144123255.png)
+![image-20260324144123255](./Pictures/image-20260324144123255.png)
 
 导入id号或json文件，在grafana官网可以直接获取。
 
-![image-20260324151909684](.\Pictures\image-20260324151909684.png)
+![image-20260324151909684](./Pictures/image-20260324151909684.png)
 
-![image-20260324153436739](.\Pictures\image-20260324153436739.png)
+![image-20260324153436739](./Pictures/image-20260324153436739.png)
 
 
 
